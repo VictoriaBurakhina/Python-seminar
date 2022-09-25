@@ -9,5 +9,7 @@
 dayofweek=int (input("Введите день недели "))
 if dayofweek == 6 or dayofweek ==7:
     print ("этот день выходной")
-else:
+elif dayofweek >=1 and dayofweek <= 5:
     print ("этот день рабочий")
+else:
+    print ("такого дня нет")
